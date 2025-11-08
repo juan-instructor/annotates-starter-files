@@ -1,0 +1,11 @@
+:root {
+  --clr-primary: hsl(0deg 0% 44.3%);
+  --clr-secondary: hsl(162.2deg 36% 14.7%);
+  --clr-accent: hsl(161.7deg 80% 45.1%);
+  --clr-light: hsl(0deg 0% 96.1%);
+  --clr-dark: hsl(160deg 13.3% 17.6%);
+  --clr-error: hsl(0deg 79.7% 55.5%);
+  --clr-priority-high: hsl(0deg 58.3% 62.4%);
+  --clr-priority-medium: hsl(38.9deg 52.6% 51.2%);
+  --clr-priority-low: hsl(120deg 40.2% 60%);
+}

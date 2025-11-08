@@ -1,0 +1,43 @@
+.note-form {
+  border: 2px solid var(--clr-primary);
+  border-radius: var(--border-radius-sm);
+  padding: 2rem;
+  background-color: var(--clr-light);
+
+  .note-form__close-btn-wrapper {
+    text-align: end;
+  }
+
+  .note-form__input:not(:last-child) {
+    margin-block-end: 1rem;
+  }
+
+  label {
+    display: flex;
+    flex-direction: column;
+  }
+
+  input,
+  select,
+  textarea {
+    background-color: var(--clr-light);
+    border-radius: var(--border-radius-sm);
+    color: var(--clr-dark);
+    padding: 0.4rem;
+  }
+
+  textarea {
+    min-height: 7rem;
+    min-width: 25rem;
+  }
+
+  input:focus,
+  select:focus,
+  textarea:focus {
+    outline: 2px solid var(--clr-accent);
+  }
+}
+
+.note-form__btn-enter {
+  margin-block-start: 1rem;
+}

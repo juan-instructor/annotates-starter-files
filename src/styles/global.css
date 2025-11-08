@@ -1,0 +1,20 @@
+.btn {
+  background-color: var(--clr-accent);
+  border: none;
+  padding: 1rem;
+  border-radius: var(--border-radius-sm);
+  color: var(--clr-light);
+  text-wrap: nowrap;
+}
+
+.btn--add {
+  box-shadow: 2px 2px 0 0 var(--clr-secondary);
+}
+
+.btn--delete {
+  margin-block-start: auto;
+}
+
+.btn--cancel {
+  margin-inline-end: 1rem;
+}

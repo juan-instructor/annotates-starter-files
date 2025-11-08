@@ -1,0 +1,4 @@
+.form-errors {
+  margin-block-end: 1rem;
+  border: 4px solid var(--clr-error);
+}

@@ -1,0 +1,13 @@
+.header {
+  font-size: 2rem;
+  margin-block-end: 2rem;
+
+  a {
+    display: flex;
+    align-items: center;
+  }
+
+  span {
+    margin-inline-start: 0.5rem;
+  }
+}

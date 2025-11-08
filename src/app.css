@@ -1,0 +1,55 @@
+@import "styles/index.css";
+@import "styles/theme.css";
+@import "styles/typography.css";
+@import "styles/global.css";
+
+:root {
+  padding: 2.5rem;
+  background: white;
+  height: 100%;
+  position: relative;
+  background-image:
+    repeating-linear-gradient(
+      22.5deg,
+      transparent,
+      transparent 2px,
+      rgb(75 85 99 / 6%) 2px,
+      rgb(75 85 99 / 6%) 3px,
+      transparent 3px,
+      transparent 8px
+    ),
+    repeating-linear-gradient(
+      67.5deg,
+      transparent,
+      transparent 2px,
+      rgb(107 114 128 / 5%) 2px,
+      rgb(107 114 128 / 5%) 3px,
+      transparent 3px,
+      transparent 8px
+    ),
+    repeating-linear-gradient(
+      112.5deg,
+      transparent,
+      transparent 2px,
+      rgb(55 65 81 / 4%) 2px,
+      rgb(55 65 81 / 4%) 3px,
+      transparent 3px,
+      transparent 8px
+    ),
+    repeating-linear-gradient(
+      157.5deg,
+      transparent,
+      transparent 2px,
+      rgb(31 41 55 / 3%) 2px,
+      rgb(31 41 55 / 3%) 3px,
+      transparent 3px,
+      transparent 8px
+    );
+  background-size: 40px 40px;
+}
+
+#root {
+  max-width: 80rem;
+  margin: 0 auto;
+  color: black;
+}
