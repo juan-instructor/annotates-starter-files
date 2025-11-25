@@ -22,6 +22,7 @@ const Annotates = () => {
   };
   return (
     <div>
+      <Form handleNewNote={addNewNote} />
       <div style={{
         height: '10px',
         marginBlock: '1rem',
