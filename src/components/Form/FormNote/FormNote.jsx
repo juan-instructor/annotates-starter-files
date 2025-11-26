@@ -10,8 +10,7 @@ const FormNote = ({ handleNewNote, handleFormVisibility }) => {
       <div className='note-form__close-btn-wrapper'>
         <button className='btn' onClick={() => handleFormVisibility(wasVisible => !wasVisible)}>X</button>
       </div>
-      {/* NOTE: new in React for server components and calling functions on the server */}
-      {/* <form action={handleFormAction}></form> */}
+
       <form onSubmit={handleFormSubmit}>
         <legend className="visually-hidden">Add a new note form</legend>
         {
@@ -23,12 +22,8 @@ const FormNote = ({ handleNewNote, handleFormVisibility }) => {
             <label>
               <span aria-hidden='true'>Title*</span>
               <span className='visually-hidden'>add note title. Note this field is required</span>
-              {/* NOTE: controlled vs uncontrolled inputs */}
-              {/* https://react.dev/reference/react-dom/components/input#controlling-an-input-with-a-state-variable */}
-              {/* By passing the `value` prop we indicate to react we want to controll this input */}
-              {/* and not the default browser behaviour. So, we need to tell react how the value should be updated. */}
+
               <input
-                // type=""
                 name="title"
                 type="text"
                 placeholder='Enter a note title'
@@ -40,9 +35,7 @@ const FormNote = ({ handleNewNote, handleFormVisibility }) => {
           <p className='note-form__input'>
             <label>
               <span>Priority</span>
-              {/* NOTE: we passed the prop 'value' -> making the select input controlled! */}
-              {/* we need to update react on how to update this value; otherwise, it won't update anything! */}
-              {/* https://react.dev/reference/react-dom/components/select#select */}
+
               <select
                 // value=""
                 name="priority"
